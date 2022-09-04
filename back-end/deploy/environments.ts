@@ -1,19 +1,19 @@
 export const parameters: Parameters = {
-  project: 'egm',
-  awsAccount: '008360868121',
-  awsRegion: 'eu-central-1',
-  apiDomain: 'api.egm-app.link',
-  mediaDomain: 'media.egm-app.link',
-  firstAdminEmail: 'matteo.carbone@iter-idea.com'
+  project: 'esn-pt-app',
+  awsAccount: '082427212063',
+  awsRegion: 'eu-west-1',
+  apiDomain: 'api.esnportugal.cloud',
+  mediaDomain: 'media.esnportugal.cloud',
+  firstAdminEmail: 'it-manager@esnportugal.org'
 };
 
 export const environments: { [stage: string]: Stage } = {
   prod: {
-    domain: 'egm-app.link',
+    domain: 'esnportugal.cloud',
     destroyDataOnDelete: false
   },
   dev: {
-    domain: 'dev.egm-app.link',
+    domain: 'dev.esnportugal.cloud',
     destroyDataOnDelete: true
   }
 };

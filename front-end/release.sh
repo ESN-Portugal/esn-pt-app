@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # project specific parameters
-S3_BUCKET_PROD='egm-prod-front-end'
-S3_BUCKET_DEV='egm-dev-front-end'
-CLOUDFRONT_DISTRIBUTION_PROD='E1SC6WGQUI6XWJ'
-CLOUDFRONT_DISTRIBUTION_DEV='E1WBM1Y7S111BZ'
-AWS_REGION='eu-central-1'
-AWS_PROFILE='egm' # leave empty if not used
+S3_BUCKET_PROD='esn-pt-app-prod-front-end'
+S3_BUCKET_DEV='esn-pt-app-dev-front-end'
+CLOUDFRONT_DISTRIBUTION_PROD='EEM4K7NHXSD1A'
+CLOUDFRONT_DISTRIBUTION_DEV='E22KDOGWPLSUBK'
+AWS_REGION='eu-west-1'
+AWS_PROFILE='esn' # leave empty if not used
 
 # other parameters
 ACTION=$1

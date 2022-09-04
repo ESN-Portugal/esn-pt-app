@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # project-specific parameters
-PROJECT='egm'
-AWS_REGION='eu-central-1'
-AWS_PROFILE='egm' # leave empty if not used
+PROJECT='esn-pt-app'
+AWS_REGION='eu-west-1'
+AWS_PROFILE='esn' # leave empty if not used
 
 # other parameters
 ACTION=$1
